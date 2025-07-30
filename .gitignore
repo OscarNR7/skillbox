@@ -1,0 +1,68 @@
+# === Python ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# === Entornos virtuales ===
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# === Django ===
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# === Configuraciones locales ===
+.env
+.env.*
+
+# === Migraciones (opcional: si no quieres versionarlas) ===
+**/migrations/
+!**/migrations/__init__.py
+
+# === VSCode ===
+.vscode/
+
+# === Archivos del sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de compilación / caché ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# === Otros ===
+*.bak
+*.swp
+*.swo
+*.~undo-tree*
+
+# === Pytest / Coverage ===
+.cache/
+coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+
+# === Docker ===
+*.pid
+*.tar
+*.img
+*.container
+docker-compose.override.yml
